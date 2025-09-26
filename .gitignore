@@ -1,0 +1,55 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- Environments ----
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Logs & Cache ----
+*.log
+*.dat
+*.sqlite
+*.db
+*.h5
+*.pkl
+*.sav
+.DS_Store
+.cache/
+*.lock
+
+# ---- Data Files ----
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- VSCode & IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS generated files ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Build / Dist ----
+build/
+dist/
+*.egg-info/
