@@ -60,9 +60,7 @@ It’s basically your **AutoML buddy** for quick experiments!
 
 ---
 
-## ⚙️ Installation & Setup
 
-### 1. Clone the Repo
-```bash
-git clone https://github.com/YourUserName/best-model-selector.git
-cd best-model-selector
+
+
+
