@@ -94,7 +94,7 @@ rf_reg_param_grid = {
 
 
 
-st.sidebar.image(r"C:\Users\Lenovo\Downloads\Untitled design.png", caption="Artificial Me")
+st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Wikimedia_Brand_Guidelines_Update_2022_Wikimedia_Logo_Brandmark.png/1200px-Wikimedia_Brand_Guidelines_Update_2022_Wikimedia_Logo_Brandmark.png")
 st.title("Best Model Selector For Your Prediction")
 st.subheader("In this model you can find best prediction model according to your file")
 # ------------------file uploading----------------------
@@ -318,4 +318,5 @@ if file_up:
                 best_model_r = max(r_score,key=r_score.get)
                 mod_score_r = r_score[best_model_r]
                 st.markdown(f"The best Model is {best_model_r} with accuracy score - {mod_score_r*100} ")
+
                 st.success("Model trained successfully")
